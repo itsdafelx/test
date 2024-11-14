@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.0" sequence="0" timestamp="1731612311485" analysisTimestamp="1731612311528" release="unspecified">
+  <Project projectName="backend (spotbugsMain)">
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\EventDAO.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\InMemoryEvent.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\jdbc\ConnectionPool$ConnectionPoolHolder.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\jdbc\ConnectionPool.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\jdbc\DAOFactory.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\jdbc\DAOFactoryJdbc.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\dao\jdbc\EventDAOJdbc.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\exception\CreateEventException.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\exception\DatabaseException.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\exception\DataSourceInitializationException.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\exception\EmptyDataException.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\exception\NotFoundException.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\model\BaseEntity.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\model\Event.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\service\CalendarService.class</Jar>
+    <Jar>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\build\classes\java\main\edu\bbte\idde\boim2218\backend\service\CalendarServiceInterface.class</Jar>
+    <AuxClasspathEntry>C:\Users\orsbe\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\6.0.0\a5102a877d78170c07faad88f360840b61f45252\HikariCP-6.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\orsbe\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.16\172931663a09a1fa515567af5fbef00897d3c04\slf4j-api-2.0.16.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\backend\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Nov 2024 21:25:11 +0200" total_classes="16" referenced_classes="78" total_bugs="0" total_size="305" num_packages="5" java_version="21.0.4" vm_version="21.0.4+8-LTS-274" cpu_seconds="0.00" clock_seconds="2.00" peak_mbytes="253.10" alloc_mbytes="16312.00" gc_seconds="0.00">
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/EventDAO.java" bugCount="0" size="6"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/InMemoryEvent.java" bugCount="0" size="33"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/jdbc/ConnectionPool.java" bugCount="0" size="25"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/jdbc/DAOFactory.java" bugCount="0" size="2"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/jdbc/DAOFactoryJdbc.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/dao/jdbc/EventDAOJdbc.java" bugCount="0" size="97"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/exception/CreateEventException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/exception/DataSourceInitializationException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/exception/DatabaseException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/exception/EmptyDataException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/exception/NotFoundException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/model/BaseEntity.java" bugCount="0" size="9"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/model/Event.java" bugCount="0" size="39"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/service/CalendarService.java" bugCount="0" size="48"/>
+    <FileStats path="edu/bbte/idde/boim2218/backend/service/CalendarServiceInterface.java" bugCount="0" size="6"/>
+    <PackageStats package="edu.bbte.idde.boim2218.backend.dao" total_bugs="0" total_types="2" total_size="39">
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.EventDAO" sourceFile="EventDAO.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.InMemoryEvent" sourceFile="InMemoryEvent.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.idde.boim2218.backend.dao.jdbc" total_bugs="0" total_types="5" total_size="129">
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.jdbc.ConnectionPool" sourceFile="ConnectionPool.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.jdbc.ConnectionPool$ConnectionPoolHolder" sourceFile="ConnectionPool.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.jdbc.DAOFactory" sourceFile="DAOFactory.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.jdbc.DAOFactoryJdbc" sourceFile="DAOFactoryJdbc.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.dao.jdbc.EventDAOJdbc" sourceFile="EventDAOJdbc.java" interface="false" size="97" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.idde.boim2218.backend.exception" total_bugs="0" total_types="5" total_size="35">
+      <ClassStats class="edu.bbte.idde.boim2218.backend.exception.CreateEventException" sourceFile="CreateEventException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.exception.DataSourceInitializationException" sourceFile="DataSourceInitializationException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.exception.DatabaseException" sourceFile="DatabaseException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.exception.EmptyDataException" sourceFile="EmptyDataException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.exception.NotFoundException" sourceFile="NotFoundException.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.idde.boim2218.backend.model" total_bugs="0" total_types="2" total_size="48">
+      <ClassStats class="edu.bbte.idde.boim2218.backend.model.BaseEntity" sourceFile="BaseEntity.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.model.Event" sourceFile="Event.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.idde.boim2218.backend.service" total_bugs="0" total_types="2" total_size="54">
+      <ClassStats class="edu.bbte.idde.boim2218.backend.service.CalendarService" sourceFile="CalendarService.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="edu.bbte.idde.boim2218.backend.service.CalendarServiceInterface" sourceFile="CalendarServiceInterface.java" interface="true" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="268" invocations="862" avgMicrosecondsPerInvocation="311" maxMicrosecondsPerInvocation="9718" standardDeviationMicrosecondsPerInvocation="640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="87" invocations="78" avgMicrosecondsPerInvocation="1117" maxMicrosecondsPerInvocation="10157" standardDeviationMicrosecondsPerInvocation="1840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="70" invocations="68" avgMicrosecondsPerInvocation="1035" maxMicrosecondsPerInvocation="57037" standardDeviationMicrosecondsPerInvocation="6855"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="68" invocations="867" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="2438" standardDeviationMicrosecondsPerInvocation="159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="65" invocations="78" avgMicrosecondsPerInvocation="839" maxMicrosecondsPerInvocation="57273" standardDeviationMicrosecondsPerInvocation="6435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="58" invocations="281" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="2519" standardDeviationMicrosecondsPerInvocation="305"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="55" invocations="78" avgMicrosecondsPerInvocation="707" maxMicrosecondsPerInvocation="4445" standardDeviationMicrosecondsPerInvocation="1082"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="49" invocations="57" avgMicrosecondsPerInvocation="874" maxMicrosecondsPerInvocation="36877" standardDeviationMicrosecondsPerInvocation="4825"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="46" invocations="62" avgMicrosecondsPerInvocation="744" maxMicrosecondsPerInvocation="27810" standardDeviationMicrosecondsPerInvocation="3484"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="44" invocations="62" avgMicrosecondsPerInvocation="715" maxMicrosecondsPerInvocation="19461" standardDeviationMicrosecondsPerInvocation="2508"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="43" invocations="129" avgMicrosecondsPerInvocation="335" maxMicrosecondsPerInvocation="17954" standardDeviationMicrosecondsPerInvocation="1636"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="37" invocations="78" avgMicrosecondsPerInvocation="475" maxMicrosecondsPerInvocation="8123" standardDeviationMicrosecondsPerInvocation="1122"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="815" avgMicrosecondsPerInvocation="37" maxMicrosecondsPerInvocation="3960" standardDeviationMicrosecondsPerInvocation="154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="28" invocations="57" avgMicrosecondsPerInvocation="492" maxMicrosecondsPerInvocation="13278" standardDeviationMicrosecondsPerInvocation="1747"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="26" invocations="78" avgMicrosecondsPerInvocation="341" maxMicrosecondsPerInvocation="15943" standardDeviationMicrosecondsPerInvocation="1788"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DontReusePublicIdentifiers" totalMilliseconds="25" invocations="16" avgMicrosecondsPerInvocation="1606" maxMicrosecondsPerInvocation="24451" standardDeviationMicrosecondsPerInvocation="5899"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="25" invocations="78" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="4515" standardDeviationMicrosecondsPerInvocation="746"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="24" invocations="16" avgMicrosecondsPerInvocation="1550" maxMicrosecondsPerInvocation="24712" standardDeviationMicrosecondsPerInvocation="5980"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="23" invocations="57" avgMicrosecondsPerInvocation="417" maxMicrosecondsPerInvocation="6603" standardDeviationMicrosecondsPerInvocation="960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="20" invocations="78" avgMicrosecondsPerInvocation="265" maxMicrosecondsPerInvocation="1813" standardDeviationMicrosecondsPerInvocation="446"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="18" invocations="16" avgMicrosecondsPerInvocation="1164" maxMicrosecondsPerInvocation="9728" standardDeviationMicrosecondsPerInvocation="2430"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ObligationDataflowFactory" totalMilliseconds="18" invocations="8" avgMicrosecondsPerInvocation="2308" maxMicrosecondsPerInvocation="18012" standardDeviationMicrosecondsPerInvocation="5935"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,4 @@
+rootProject.name = 'abcd1234-idde'
+include 'backend', 'desktop', 'web'
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2024-11-14T21:33:16.672">
+<file name="C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\desktop\src\main\java\edu\bbte\idde\boim2218\desktop\presentation\AppUI.java">
+<violation beginline="19" endline="19" begincolumn="29" endcolumn="44" rule="ImmutableField" ruleset="Design" package="edu.bbte.idde.boim2218.desktop.presentation" class="AppUI" variable="calendarService" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'calendarService' may be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="20" endcolumn="30" rule="ImmutableField" ruleset="Design" package="edu.bbte.idde.boim2218.desktop.presentation" class="AppUI" variable="eventTable" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'eventTable' may be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="31" endcolumn="41" rule="ImmutableField" ruleset="Design" package="edu.bbte.idde.boim2218.desktop.presentation" class="AppUI" variable="tableModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Field 'tableModel' may be declared final
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,2 @@
+C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\desktop\build\classes\java\main\edu\bbte\idde\boim2218\desktop\Main.class
+C:\Users\orsbe\Documents\UBB\IDDE\Labor\Saját\boim2218\desktop\build\classes\java\main\edu\bbte\idde\boim2218\desktop\presentation\AppUI.class

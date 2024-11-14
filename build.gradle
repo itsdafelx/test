@@ -1,0 +1,17 @@
+allprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+group = 'org.example'
+version = 'unspecified'
+
+
+subprojects {
+    apply from: rootProject.file('lint.gradle')
+    apply plugin: 'checkstyle'
+    apply plugin: 'pmd'
+}
